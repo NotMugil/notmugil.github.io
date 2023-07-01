@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This repository contains the source code for a portfolio website. The website serves as a showcase for displaying your skills, projects, and achievements to potential clients or employers.
+This repository contains the source code for my portfolio website.
 
 ## Table of Contents
 
