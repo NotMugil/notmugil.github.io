@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron&display=swap');
+
+:root {
+  font-family: 'Kameron';
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1a1a1a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #f1f1f1;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #F374AE;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+p{
+  font-family: 'Kameron';
+  font-size: 1.4em;
+  margin: 2em 0em 1em 0em;
+}
+
+menu, ol, ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-ul{
+    margin: 0;
+    padding: 0rem 0.5rem;
+    border: 0 solid #e5e7eb;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #f1f1f1;   
+    border-radius: 1000px;
+}
+
+.nav-ul a{
+    color: #1a1a1a;
+    font-size: 1.3rem;
+}
+
+.nav-li{
+    padding: 0.2rem 0.5rem;
+    text-decoration: none;
+}
+
+.nav-li a:hover{
+    color: #F374AE;
+}
+
+.nav-li .active{
+    color: #F374AE;
+}
+
+
+@media (prefers-color-scheme: light) {
+    :root {
+      color: #f1f1f1;
+      background-color: #1a1a1a;
+    }
+    a.button{
+      color: #1a1a1a;
+    }
+    a.button:hover {
+      color: #F374AE;
+    }
+    .button {
+      background-color: #f1f1f1;
+    }
+    
+  }
+  
+  ::-webkit-scrollbar {
+      width: 2px;
+    }
+    ::-webkit-scrollbar-track{
+      background-color: #fff;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background-color: #F374AE;
+    }
+  
+    
